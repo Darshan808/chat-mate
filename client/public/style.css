@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+.App{
+    min-height: 100vh;
+    display: flex;
+    /* background-image: url('./background.png'); */
+    background-color: #222831;
+    background-size: cover;
+    background-position: center;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.emoji {
+    position: fixed;
+    top: 41%;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
